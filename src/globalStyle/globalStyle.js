@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import * as colors from "../config/colors";
+import background from "../assests/background.png";
 
 export default createGlobalStyle`
   *{
@@ -12,7 +12,7 @@ export default createGlobalStyle`
 
   body{
     font-family:sans-serif;
-    background-color: ${colors.gray};
+    background-image: url(${background});
     
     
   }
